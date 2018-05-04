@@ -122,7 +122,7 @@ setup(
     # the `py_modules` argument instead as follows, which will expect a file
     # called `my_module.py` to exist:
     #
-    #   py_modules=["my_module"],
+    # py_modules=["__init__"],
     #
     # packages=find_packages(exclude=['contrib', 'docs', 'tests']),  # Required
     packages=['pyhelper'],  # Required
